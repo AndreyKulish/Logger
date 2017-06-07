@@ -1,0 +1,21 @@
+2017-06-07 17:57:11,577  INFO ServersSocket: 18 - Server Started
+2017-06-07 17:57:34,162  INFO ServersSocket: 42 - Server 1 method call
+2017-06-07 17:57:34,162  INFO Server: 43 - Server 1 method call
+2017-06-07 17:57:34,166  INFO ClientSocket: 33 - 1
+2017-06-07 17:57:34,167  INFO Client: 34 - 1
+2017-06-07 17:57:36,410  INFO ServersSocket: 47 - Server 2 method call
+2017-06-07 17:57:36,410  INFO Server: 48 - Server 2 method call
+2017-06-07 17:57:36,411  INFO ClientSocket: 33 - 2
+2017-06-07 17:57:36,411  INFO Client: 34 - 2
+2017-06-07 17:57:46,594 ERROR ServersSocket: 61 - 5/0
+java.lang.ArithmeticException: / by zero
+	at ua.kiev.andersen.andrey.my.socket.server.ServersSocket.main(ServersSocket.java:59)
+2017-06-07 17:57:46,598 ERROR Server: 62 - 5/0
+java.lang.ArithmeticException: / by zero
+	at ua.kiev.andersen.andrey.my.socket.server.ServersSocket.main(ServersSocket.java:59)
+2017-06-07 17:57:46,598  INFO ClientSocket: 33 - error
+2017-06-07 17:57:46,600  INFO Client: 34 - error
+2017-06-07 17:57:50,906  INFO ServersSocket: 36 - Server Drop
+2017-06-07 17:57:50,921  INFO Server: 37 - Server Drop
+2017-06-07 17:57:50,921  INFO ClientSocket: 33 - exit
+2017-06-07 17:57:50,921  INFO Client: 34 - exit
